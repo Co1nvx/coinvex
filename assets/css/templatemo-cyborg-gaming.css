@@ -1634,6 +1634,76 @@ Profile Style
   text-align: center;
 }
 
+
+
+
+/* 
+^------------------------------------------
+^ MY CSS
+^------------------------------------------
+*/
+.title-indx {
+  font-size: 34px;
+  margin-bottom: 10px !important;
+  font-family: 'Righteous', cursive;
+  font-weight: 200;
+}
+
+.p-indx {
+  font-size: 20px;
+  color: white;
+  font-weight: 900;
+  line-height: 30px;
+}
+
+.list-indx {
+  margin-bottom: 20px;
+  list-style-type: circle;
+  padding-left: 2rem;
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+  margin-top: -20px;
+}
+
+.em-indx {
+  color: #ec6090;
+  text-decoration: underline !important;
+  font-style: initial;
+  font-size: 23px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .title-indx {
+    font-size: 25px !important;
+  }
+
+  .p-indx {
+    font-size: 15px;
+    color: white;
+    font-weight: 900;
+    line-height: 22px;
+  }
+  
+  .list-indx {
+    margin-bottom: 2px;
+    list-style-type: circle;
+    padding-left: 2rem;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    margin-top: -20px;
+  }
+
+  .em-indx {
+    color: #ec6090;
+    text-decoration: underline !important;
+    font-style: initial;
+    font-size: 17px;
+  }
+}
+
 /* 
 ---------------------------------------------
 Responsive Style
