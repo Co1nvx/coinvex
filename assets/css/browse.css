@@ -81,6 +81,8 @@
 
 .user .username {
     margin: 0;
+    border-bottom: 2px dashed #ec6090;
+    font-weight: 700;
 }
 
 .user .role {
@@ -89,11 +91,12 @@
 }
 
 .progress-bar {
-    background-color: white;
+    background-color: #ec6090;
     height: 4px;
     width: 100%;
     animation: grow 10s linear infinite;
     transform-origin: left;
+    border-radius: 50px;
 }
 
 @keyframes grow {
