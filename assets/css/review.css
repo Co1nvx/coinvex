@@ -1,0 +1,277 @@
+.first{
+  border-radius: 23px;
+  padding: 30px;
+  background-color: #1f2122;
+  margin-bottom: 30px;
+}
+
+.first-hd{
+  font-family: 'Righteous', cursive;
+  color: #ec6090;
+  font-size: 34px;
+  font-weight: 100;
+  text-align: center;
+}
+
+
+.info-flex{
+  display: flex;
+  width: max-content;
+  margin: 30px auto;
+}
+
+.info-flex h4{
+  width: max-content;
+  margin: auto;
+  font-family: 'Righteous', cursive;
+  color: #ec6090;
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.info-flex span{
+  font-family: 'Righteous', cursive;
+  color: white;
+  font-size: 22px;
+  font-weight: 100;
+}
+
+.info-one{
+  display: grid;
+}
+
+.info-two{
+  margin: 0 120px;
+  display: grid;
+}
+
+.info-three{
+  display: grid;
+}
+
+@media screen and (max-width: 769px) {
+  .info-flex{
+    display: block;
+  }
+
+  .info-two{
+    margin: 0;
+  }
+}
+
+
+/* DIV SUPPORT */
+
+.flex-rv-mail{
+  display: flex;
+  width: max-content;
+  margin: 10px auto;
+}
+
+.support-mail{
+  width: max-content;
+  margin-right: 80px;
+}
+
+.admin-mail{
+  width: max-content;
+  margin-left: 80px;
+}
+
+.mail-text{
+  font-size: 18px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+}
+
+.brdr-mail{
+  border: 0.53mm solid #e75e8d;
+  width: -webkit-fill-available;
+  border-radius: 50px;
+  margin-top: -2px;
+}
+
+@media screen and (max-width: 992px) {
+  .flex-rv-mail{
+    display: block;
+  }
+
+  .support-mail{
+    margin: 0 auto 10px auto;
+  }
+  
+  .admin-mail{
+    margin: 10px auto 0 auto;
+  }
+}  
+/* PROGRESS BAR */
+
+.progress-all{
+  display: flex;
+  margin: 0 auto;
+  width: max-content;
+}
+
+.progress-one{
+  margin-top: 2px;
+  display: flex;
+  height: max-content;
+}
+
+.progress-two{
+  display: flex;
+  height: max-content;
+}
+
+.progress-three{
+  display: flex;
+  height: max-content;
+}
+
+.progress-four{
+  display: flex;
+  height: max-content;
+}
+
+.circle-ch{
+  padding: 10px;
+  margin: auto 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #e75e8d;
+}
+
+
+.prgrs-ch{
+  border: 2px solid #e75e8d;
+  width: 120px;
+  height: 0;
+  margin: auto 10px;
+  border-radius: 50px;
+}
+
+.circle-n-ch{
+  font-family: 'Righteous', cursive;
+  padding: 0px 15px;
+  color: #e75e8d;
+  border-radius: 50px;
+  background-color: white;
+  border: 4px solid #e75e8d;
+  font-size: 30px;
+}
+
+.prgrs-n-ch{
+  border: 2px solid white;
+  width: 120px;
+  height: 0;
+  margin: auto 10px;
+  border-radius: 50px;
+}
+
+.prgrs-txt1{
+  font-size: 23px;
+  text-align: start;
+  margin: 8px 0 0 -36px;
+  color: white;
+  font-family: 'Righteous', cursive;
+  font-weight: 100;
+}
+
+.prgrs-txt2{
+  font-size: 23px;
+  text-align: start;
+  margin: 7px 0 0 -9px;
+  color: white;
+  font-family: 'Righteous', cursive;
+  font-weight: 100;
+}
+
+.prgrs-txt3{
+  font-size: 23px;
+  text-align: start;
+  margin: 7px 0 0 -20px;
+  color: white;
+  font-family: 'Righteous', cursive;
+  font-weight: 100;
+}
+
+.prgrs-txt4{
+  font-size: 23px;
+  text-align: start;
+  margin: 7px 0 0 -21px;
+  color: white;
+  font-family: 'Righteous', cursive;
+  font-weight: 100;
+}
+
+
+/* ********** COPY BUTTON ******** */
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.copy-bar input{
+  padding: 8px 131px 8px 140px;
+  background: transparent;
+  border: 3px solid #e75e8d;
+  border-radius: 50px;
+  width: 100%;
+  font-family: inherit;
+  color: #ec6090;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.copy-bar{
+  width: -webkit-fill-available;
+  margin: 30px 30px 5px 30px;
+  height: max-content;
+}
+
+.copy-btn{
+  position: absolute;
+  margin-left: -64px;
+  background: #e75e8d;
+  color: white;
+  border: 0;
+  padding: 6px 15px;
+  border-radius: 50px;
+}
