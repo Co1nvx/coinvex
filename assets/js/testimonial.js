@@ -6,55 +6,40 @@ const role = document.querySelector(".role");
 
 const testimonials = [
   {
-    name: "Miyah Myles",
+    name: "Arjun Morse",
     position: "Marketing",
     photo:
       "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=707b9c33066bf8808c934c8ab394dff6",
     text:
-      "I've worked with literally hundreds of HTML/CSS developers and I have to say the top spot goes to this guy. This guy is an amazing developer. He stresses on good, clean code and pays heed to the details. I love developers who respect each and every aspect of a throughly thought out design and do their best to put it in code. He goes over and beyond and transforms ART into PIXELS - without a glitch, every time."
+      "Coinvex rewarded me with 1700 Robux for completing a task. User-friendly platform, enjoyable task. Smooth Robux redemption process, excellent customer support. Highly recommended for Roblox enthusiasts!"
   },
   {
-    name: "June Cha",
+    name: "Philip Adams",
     position: "Software Engineer",
     photo: "https://randomuser.me/api/portraits/women/44.jpg",
     text:
-      "This guy is an amazing frontend developer that delivered the task exactly how we need it, do your self a favor and hire him, you will not be disappointed by the work delivered. He will go the extra mile to make sure that you are happy with your project. I will surely work again with him!"
+      "Netflix gave me a 1-year Netflix account for completing a task. User-friendly platform, engaging task. Smooth account activation process, excellent customer support. Highly recommended for premium Netflix access!"
   },
   {
     name: "Iida Niskanen",
     position: "Data Entry",
     photo: "https://randomuser.me/api/portraits/women/68.jpg",
     text:
-      "This guy is a hard worker. Communication was also very good with him and he was very responsive all the time, something not easy to find in many freelancers. We'll definitely repeat with him."
+      "Grateful for the site that gave me Account 25 Usdt for a task. Exceptional platform, easy process. Received reward quickly. Highly recommend for effortless cryptocurrency earning."
   },
   {
     name: "Renee Sims",
     position: "Receptionist",
     photo: "https://randomuser.me/api/portraits/women/65.jpg",
     text:
-      "This guy does everything he can to get the job done and done right. This is the second time I've hired him, and I'll hire him again in the future."
+      "I am thrilled to share my experience with Coinvex Site that generously rewarded me with 1500 UC for completing a task. This platform goes above and beyond to provide its users with valuable incentives. The task was engaging and enjoyable, and the UC reward was promptly delivered to my account. I highly recommend this site to anyone seeking rewarding experiences and valuable incentives."
   },
   {
     name: "Jonathan Nunfiez",
     position: "Graphic Designer",
     photo: "https://randomuser.me/api/portraits/men/43.jpg",
     text:
-      "I had my concerns that due to a tight deadline this project can't be done. But this guy proved me wrong not only he delivered an outstanding work but he managed to deliver 1 day prior to the deadline. And when I asked for some revisions he made them in MINUTES. I'm looking forward to work with him again and I totally recommend him. Thanks again!"
-  },
-  {
-    name: "Sasha Ho",
-    position: "Accountant",
-    photo:
-      "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?h=350&auto=compress&cs=tinysrgb",
-    text:
-      "This guy is a top notch designer and front end developer. He communicates well, works fast and produces quality work. We have been lucky to work with him!"
-  },
-  {
-    name: "Veeti Seppanen",
-    position: "Director",
-    photo: "https://randomuser.me/api/portraits/men/97.jpg",
-    text:
-      "This guy is a young and talented IT professional, proactive and responsible, with a strong work ethic. He is very strong in PSD2HTML conversions and HTML/CSS technology. He is a quick learner, eager to learn new technologies. He is focused and has the good dynamics to achieve due dates and outstanding results."
+      "I am beyond impressed with Coinvex, the site that granted me 10k Instagram followers for completing a task. It's an incredible platform that delivers tangible results. The task was simple, and the followers were genuine and engaging, instantly boosting my social media presence. I highly recommend Coinvex to anyone looking to grow their Instagram following effectively."
   }
 ];
 
