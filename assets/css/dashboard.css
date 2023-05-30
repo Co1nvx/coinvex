@@ -165,7 +165,8 @@
     counter-reset: li;
     color: white;
     font-family: 'Righteous';
-    font-size: 15px;
+    font-size: 18px;
+    line-height: 25px;
 }
 
 .steps li::before {
@@ -322,7 +323,9 @@
         text-align: right;
         width: max-content;
     }
-
+    .steps ol {
+        line-height: 28px;
+    }
     .steps {
         width: -webkit-fill-available;
         margin: 0 20px;
