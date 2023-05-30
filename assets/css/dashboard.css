@@ -172,7 +172,7 @@
     content: counter(li);
     color: #e75e8d;
     display: inline-block;
-    width: 1em;
+    width: 9px;
     margin-right: 5px;
 }
 
