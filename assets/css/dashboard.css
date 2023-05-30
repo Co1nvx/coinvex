@@ -132,11 +132,12 @@
 }
 
 .button-tasks {
-    background-color: #c03543;
+    background-color: #f31a30;
     user-select: none;
+    padding: 10px 25px;
+    font-size: 22px;
     color: white;
     border-radius: 50px;
-    padding: 10px 20px;
     font-family: sans-serif;
     font-weight: 600;
     border: 0;
@@ -326,6 +327,8 @@
 
     .button-tasks {
         margin: 20px 0;
+        padding: 15px 40px;
+        font-size: 25px;
     }
 
     .notice {
