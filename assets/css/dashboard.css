@@ -164,6 +164,7 @@
     list-style: none;
     counter-reset: li;
     color: white;
+    font-family: 'Righteous';
 }
 
 .steps li::before {
