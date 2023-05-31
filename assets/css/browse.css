@@ -25,10 +25,18 @@
         margin-left: -20px;
         margin-right: -20px;
     }
+    
+    .trustpilot-widget{
+		scale: 1.4;
+		margin-top: 30px;
+		margin-bottom: -20px;
+	}
 }
 
 
-
+.trustpilot-widget{
+	scale: 2;
+}
 
 
 .testimonial-container {
