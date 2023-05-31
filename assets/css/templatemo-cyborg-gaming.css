@@ -1817,7 +1817,7 @@ body {
   }
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 769px) {
 	.trustpilot-widget{
 		scale: 1.4;
 		margin-top: 30px;
