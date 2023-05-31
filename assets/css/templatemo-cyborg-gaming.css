@@ -1816,3 +1816,17 @@ body {
     width: 16%;
   }
 }
+
+@media (max-width: 767px) {
+	.trustpilot-widget{
+		scale: 1.4;
+		margin-top: 30px;
+		margin-bottom: -20px;
+	}
+}
+
+.trustpilot-widget{
+	scale: 2;
+	margin-top: 30px;
+	margin-bottom: -20px;
+}
